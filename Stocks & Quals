@@ -1,0 +1,53 @@
+Rank Strategy												
+| 21 KAMA is the overall baseline for a bullish market												
+| McGinley SSL has to be above the 21 KAMA for strategy to consider												
+| 21, 7 Trend Intensity crosses over the '80' line												
+| Volume flow is used to filter the timing and amount of entries												
+| At entry the goal for the strike price is 1.0618*entry price												
+| Stop loss is 0.95*baseline												
+|    a large stop is used because this strategy is used for growth stocks												
+|    *if more than 1 contract is purchased then scale out at 50% gain												
+| Max Drawdown is limited to 0.5%	Tickers	Symbol	Industry	change (%)	Net Profit (%)	# of Trades	% Profitability	Profit Factor	Max Drawdown (%)	Avg. Trade (%)	Avg. Bars in Trades	Length of Options Contract
+| # of Trades 20 min.	APPLE INC. (XNAS:AAPL)	AAPL	Computers, Phones & Household Electronics	-0.26%	2.80%	23	95.65%	31.294	0.09%	0.12%	63	3
+| Profit Factor of 10 is needed for options of 2 months	ACCENTURE PUBLIC LIMITED COMPANY (XNYS:ACN)	ACN	Software & IT Services	-0.45%	2.24%	20	90.00%	25.681	0.05%	0.11%	76	3
+| Profit Factor of 20 is needed for options of 3 months	APPLIED MATERIALS, INC. (XNAS:AMAT)	AMAT	Semiconductors & Semiconductor Equipment	0.06%	3.32%	27	92.59%	12.985	0.15%	0.12%	54	2
+	AMAZON.COM, INC. (XNAS:AMZN)	AMZN	Diversified Retail	-0.14%	2.80%	24	95.83%	33.17	0.09%	0.12%	51	2
+	ANTHEM, INC. (XNYS:ANTM)	ANTM	Healthcare Providers & Services	-1.00%	2.26%	20	95.00%	22.642	0.10%	0.11%	76	3
+	AVERY DENNISON CORPORATION (XNYS:AVY)	AVY	Containers & Packaging	1.23%	2.98%	22	100.00%	N/A	0.00%	0.14%	72	3
+	BIO-RAD LABORATORIES, INC. (XNYS:BIO)	BIO	Healthcare Equipment & Supplies	-3.47%	3.84%	29	96.55%	N/A	0.00%	0.13%	51	2
+	CADENCE DESIGN SYSTEMS, INC. (XNAS:CDNS)	CDNS	Software & IT Services	-0.98%	4.62%	37	91.89%	12.161	0.19%	0.12%	37	2
+	CDW CORPORATION (XNAS:CDW)	CDW	Software & IT Services	-0.94%	3.67%	27	100.00%	N/A	0.00%	0.14%	56	2
+	CELANESE CORPORATION (XNYS:CE)	CE	Chemicals	1.80%	2.44%	20	95.00%	25.182	0.10%	0.12%	76	3
+	COSTCO WHOLESALE CORPORATION (XNAS:COST)	COST	Diversified Retail	-0.01%	2.35%	20	95.00%	35.765	0.07%	0.12%	69	3
+	COPART, INC. (XNAS:CPRT)	CPRT	Specialty Retailers	-2.49%	4.56%	31	96.77%	44.801	0.10%	0.15%	46	2
+	CINTAS CORPORATION (XNAS:CTAS)	CTAS	Professional & Commercial Services	-0.16%	2.82%	24	95.83%	15.42	0.19%	0.12%	59	2
+	CAESARS ENTERTAINMENT, INC. (XNAS:CZR)	CZR	Hotels & Entertainment Services	1.95%	5.56%	47	93.62%	9.997	0.41%	0.12%	24	1
+	EQUINIX, INC. (XNAS:EQIX)	EQIX	Residential & Commercial REIT	0.37%	2.41%	21	100.00%	N/A	0.00%	0.11%	67	3
+	FIRST REPUBLIC BANK (XNYS:FRC)	FRC	Banking Services	0.07%	2.49%	20	95.00%	43.196	0.06%	0.12%	77	3
+	GLOBAL PAYMENTS INC. (XNYS:GPN)	GPN	Professional & Commercial Services	-0.02%	3.05%	22	100.00%	N/A	0.00%	0.14%	70	3
+	INTUIT INC. (XNAS:INTU)	INTU	Software & IT Services	-0.10%	3.40%	26	86.15%	70.432	0.05%	0.13%	59	2
+	INTUITIVE SURGICAL, INC. (XNAS:ISRG)	ISRG	Healthcare Equipment & Supplies	-0.73%	3.09%	29	93.10%	12.348	0.19%	0.11%	51	2
+	JACOBS ENGINEERING GROUP INC. (XNYS:J)	J	Construction & Engineering	0.27%	2.91%	26	92.31%	11.169	0.14%	0.11%	54	2
+	KLA Corporation (XNAS:KLAC)	KLAC	Semiconductors & Semiconductor Equipment	-0.37%	3.52%	33	90.91%	10.742	0.17%	0.11%	39	2
+	MASTERCARD INCORPORATED. (XNYS:MA)	MA	Software & IT Services	-0.14%	3.36%	28	96.43%	24.838	0.14%	0.12%	53	2
+	MONOLITHIC POWER SYSTEMS, INC. (XNAS:MPWR)	MPWR	Semiconductors & Semiconductor Equipment	-0.20%	4.19%	38	92.11%	12.715	0.15%	0.11%	36	2
+	MSCI INC. (XNYS:MSCI)	MSCI	Professional & Commercial Services	-1.32%	4.37%	36	94.44%	21.394	0.13%	0.12%	41	2
+	MICROSOFT CORPORATION (XNAS:MSFT)	MSFT	Software & IT Services	-0.91%	3.22%	25	96.00%	19.801	0.17%	0.13%	57	2
+	METTLER-TOLEDO INTERNATIONAL INC. (XNYS:MTD)	MTD	Office Equipment	-0.36%	2.76%	22	100.00%	N/A	0.00%	0.13%	69	3
+	PENN NATIONAL GAMING, INC. (XNAS:PENN)	PENN	Hotels & Entertainment Services	-0.96%	4.98%	45	91.11%	6.955	0.29%	0.11%	30	1
+	THE PROGRESSIVE CORPORATION (XNYS:PGR)	PGR	Insurance	0.23%	2.67%	20	100.00%	N/A	0.00%	0.13%	71	3
+	PERKINELMER, INC. (XNYS:PKI)	PKI	Healthcare Equipment & Supplies	-2.28%	2.77%	20	100.00%	N/A	0.00%	0.14%	76	3
+	THE SHERWIN-WILLIAMS COMPANY (XNYS:SHW)	SHW	Chemicals	-0.24%	2.63%	21	95.24%	34.77	0.08%	0.13%	72	3
+	SYNOPSYS, INC. (XNAS:SNPS)	SNPS	Software & IT Services	-0.20%	4.09%	32	93.75%	27.907	0.09%	0.13%	45	2
+	S&P Global Inc. (XNYS:SPGI)	SPGI	Professional & Commercial Services	-1.50%	2.62%	23	95.65%	21.005	0.13%	0.11%	61	3
+	TELEDYNE TECHNOLOGIES INCORPORATED (XNYS:TDY)	TDY	Electronic Equipment & Parts	2.29%	3.23%	24	100.00%	N/A	0.00%	0.13%	61	3
+	TERADYNE, INC. (XNAS:TER)	TER	Semiconductors & Semiconductor Equipment	-1.19%	3.58%	28	96.43%	20.953	0.17%	0.13%	52	2
+	THERMO FISHER SCIENTIFIC INC. (XNYS:TMO)	TMO	Healthcare Equipment & Supplies	-4.79%	2.49%	22	95.45%	21.246	0.12%	0.11%	69	3
+	T-MOBILE US, INC. (XNAS:TMUS)	TMUS	Telecommunications Services	0.18%	3.59%	30	93.33%	10.086	0.20%	0.12%	50	2
+	Trane Technologies plc (XNYS:TT)	TT	Machinery, Equipment & Components	0.61%	2.79%	20	100.00%	N/A	0.00%	0.14%	79	3
+	TYLER TECHNOLOGIES, INC. (XNYS:TYL)	TYL	Software & IT Services	-0.29%	2.80%	25	96.00%	15.972	0.18%	0.11%	57	2
+	UNITEDHEALTH GROUP INCORPORATED (XNYS:UNH)	UNH	Healthcare Providers & Services	-1.26%	2.82%	21	100.00%	N/A	0.00%	0.13%	76	3
+	VISA INC. (XNYS:V)	V	Software & IT Services	-0.35%	2.92%	24	95.83%	25.535	0.12%	0.12%	63	3
+	VERISIGN, INC. (XNAS:VRSN)	VRSN	Software & IT Services	-1.29%	2.50%	21	95.24%	59.896	0.04%	0.12%	49	2
+	WEST PHARMACEUTICAL SERVICES, INC. (XNYS:WST)	WST	Healthcare Equipment & Supplies	-2.12%	3.71%	28	100.00%	N/A	0.00%	0.13%	56	2
+	ZOETIS INC. (XNYS:ZTS)	ZTS	Pharmaceuticals	-1.41%	3.02%	22	100.00%	N/A	0.00%	0.14%	66	3
